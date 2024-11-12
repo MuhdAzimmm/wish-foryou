@@ -50,7 +50,7 @@ const pranks = [
                     document.querySelectorAll(".yes-btn").forEach(b => b.remove());
                     resetNoButton();
                 } else {
-                    showPopup("HAHAHA saja ja usik.<br><br> Happy birthday yan!!! <br><br> Semoga Panjang Umur, Murah Rezeki, Sihat Slalu, Thankyou jadi kawan yang baik!! i appreaciate you HOHO, Dah tu ja Bye Bye..<br><br>");
+                    showPopup("HAHAHA saja ja usik.<br><br> Happy birthday yan!!! <br><br> Semoga Panjang Umur, Murah Rezeki, Sihat Slalu, Thankyou jadi kawan yang baik!! i appreciate you HOHO, Dah tu ja Bye Bye..<br><br>");
                 }
             });
         }
@@ -63,7 +63,7 @@ yesBtn.addEventListener("click", () => {
         wishElement.textContent = wishes[currentWishIndex];
         resetNoButton();
     } else {
-        showPopup("HAHAHA saja ja usik.<br><br> Happy birthday yan!!! <br><br> Semoga Panjang Umur, Murah Rezeki, Sihat Slalu, Thankyou jadi kawan yang baik!! i appreaciate you HOHO, Dah tu ja Bye Bye..<br><br>");
+        showPopup("HAHAHA saja ja usik.<br><br> Happy birthday yan!!! <br><br> Semoga Panjang Umur, Murah Rezeki, Sihat Slalu, Thankyou jadi kawan yang baik!! i appreciate you HOHO, Dah tu ja Bye Bye..<br><br>");
     }
 });
 
