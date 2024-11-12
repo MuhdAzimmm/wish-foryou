@@ -1,0 +1,100 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: #086578;
+            overflow-x: hidden;
+        }
+
+        .wish-container {
+            max-width: 500px;
+            margin: 20vh auto;
+            background: #59207f;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .wish {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .yes-btn {
+            background: #4CAF50;
+            color: white;
+        }
+
+        .no-btn {
+            background: #f44336;
+            color: white;
+        }
+
+        #popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #b3c2ed;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            display: none;
+            z-index: 1000;
+        }
+
+        #popup span {
+            font-size: 16px;
+            color: #333;
+        }
+
+        #popup button {
+            margin-top: 10px;
+            background: #4CAF50;
+        }
+
+        .animated-no {
+            position: absolute;
+            animation: fall-animation 1.5s ease-out forwards;
+        }
+
+        @keyframes fall-animation {
+            0% {
+                transform: rotate(0deg) translateY(0);
+                opacity: 1;
+            }
+            50% {
+                transform: rotate(720deg) translateY(50px);
+            }
+            100% {
+                transform: rotate(1080deg) translateY(200vh);
+                opacity: 0;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .yes-btn {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            button {
+                padding: 8px 16px;
+            }
+        }
