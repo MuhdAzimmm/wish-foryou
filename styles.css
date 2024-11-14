@@ -60,7 +60,7 @@
             display: none;
             z-index: 1000;
             max-width: 90%; /* Limits the width on smaller screens */
-            width: 400px; /* Default width */
+            width: 600px; /* Default width */
             box-sizing: border-box; /* Ensures padding is included in the width */
         }
         
