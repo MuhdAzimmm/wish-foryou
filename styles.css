@@ -1,6 +1,6 @@
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -21,7 +21,7 @@
             font-size: 18px;
             margin-bottom: 20px;
             font-weight: bold;
-            font-family: 'Pacifico', cursive;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
         }
 
         .buttons {
@@ -71,7 +71,7 @@
             display: block; /* Ensures proper spacing around the text */
             text-align: center; /* Centers text in the popup */
             font-weight: bold;
-            font-family: 'Pacifico', cursive;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
         }
         
         #popup button {
