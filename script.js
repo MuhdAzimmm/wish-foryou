@@ -28,7 +28,7 @@ const pranks = [
     },
     // Third prank: Popup shows a funny message
     function () {
-        showPopup("Asal tekan no? pat tekan yes!!");
+        showPopup1("Asal tekan no? pat tekan yes!!");
     },
     // Fourth prank: Spawn multiple "Yes" buttons and remove "No"
     function () {
@@ -93,6 +93,11 @@ yesBtn.addEventListener("click", () => {
         );
     }
 });
+
+function showPopup1(message) {
+popupMessage.innerHTML = message; // Use innerHTML to render HTML content
+popup.style.display = "block";
+}
 
 function showPopup(message) {
 popupMessage.innerHTML = message; // Use innerHTML to render HTML content
