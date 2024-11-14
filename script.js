@@ -97,6 +97,9 @@ yesBtn.addEventListener("click", () => {
 function showPopup(message) {
 popupMessage.innerHTML = message; // Use innerHTML to render HTML content
 popup.style.display = "block";
+    // Play the song
+const audio = document.getElementById("birthdaySong");
+audio.play();
 }
 
 noBtn.addEventListener("click", () => {
