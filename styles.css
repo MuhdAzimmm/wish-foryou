@@ -65,7 +65,7 @@
         }
         
         #popup span {
-            font-size: clamp(10px, 2vw, 18px); /* Adjust text size between 14px and 18px based on viewport width */
+            font-size: clamp(11px, 2vw, 16px); /* Adjust text size between 14px and 18px based on viewport width */
             color: #333;
             line-height: 1.5; /* Improves readability */
             display: block; /* Ensures proper spacing around the text */
